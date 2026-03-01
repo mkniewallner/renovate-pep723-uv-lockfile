@@ -1,0 +1,10 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [":dependencyDashboard"],
+  pep723: {
+    managerFilePatterns: [
+      "root_with_lock_file.py",
+      "scripts/**/*.py",
+    ],
+  },
+}
