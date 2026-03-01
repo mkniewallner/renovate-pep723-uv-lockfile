@@ -2,6 +2,6 @@
   $schema: "https://docs.renovatebot.com/renovate-schema.json",
   extends: [":dependencyDashboard"],
   pep723: {
-    matchFilePatterns: ["scripts/**/*.py"],
+    managerFilePatterns: ["scripts/**/*.py"],
   },
 }
